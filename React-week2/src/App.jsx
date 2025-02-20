@@ -45,3 +45,21 @@
 //   }
 // }
 // export default MapData;
+
+
+///////////////////////////////////////////////////////////////////////
+
+
+import React from 'react'
+import ApiFtech from './componenets/ApiFtech'
+
+const App = () => {
+  return (
+    <div>
+      <ApiFtech/>
+    </div>
+  )
+}
+
+export default App
+
