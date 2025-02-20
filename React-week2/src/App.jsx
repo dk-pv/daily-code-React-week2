@@ -51,12 +51,14 @@
 
 
 import React from 'react'
-import ApiFtech from './componenets/ApiFtech'
+import State from './componenets/State'
+// import ApiFtech from './componenets/ApiFtech'
 
 const App = () => {
   return (
     <div>
-      <ApiFtech/>
+      {/* <ApiFtech/> */}
+      <State />
     </div>
   )
 }
