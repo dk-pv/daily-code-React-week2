@@ -45,13 +45,19 @@
 //   }
 // }
 // export default MapData;
+////////////////////////////////////////////////////////////////////////
+
+
+                  // use context
 
 
 ///////////////////////////////////////////////////////////////////////
 
 
 import React from 'react'
-import UseReducer from './componenets/1-UseReducer'
+import CustomHook from './componenets/2-CustomHook'
+// import UseContext from './UseContextComponents/UseContext'
+// import UseReducer from './componenets/1-UseReducer'
 // import UseEffect from './componenets/UseEffect'
 // import State from './componenets/State'
 // import ApiFtech from './componenets/ApiFtech'
@@ -62,7 +68,9 @@ const App = () => {
       {/* <ApiFtech/> */}
       {/* <State /> */}
       {/* <UseEffect/> */}
-      <UseReducer/>
+      {/* <UseReducer/> */}
+      {/* <UseContext/> */}
+      <CustomHook/>
     </div>
   )
 }
