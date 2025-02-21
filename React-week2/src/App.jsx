@@ -51,7 +51,8 @@
 
 
 import React from 'react'
-import UseEffect from './componenets/UseEffect'
+import UseReducer from './componenets/1-UseReducer'
+// import UseEffect from './componenets/UseEffect'
 // import State from './componenets/State'
 // import ApiFtech from './componenets/ApiFtech'
 
@@ -60,7 +61,8 @@ const App = () => {
     <div>
       {/* <ApiFtech/> */}
       {/* <State /> */}
-      <UseEffect/>
+      {/* <UseEffect/> */}
+      <UseReducer/>
     </div>
   )
 }
