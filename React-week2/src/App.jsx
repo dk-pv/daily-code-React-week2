@@ -51,14 +51,16 @@
 
 
 import React from 'react'
-import State from './componenets/State'
+import UseEffect from './componenets/UseEffect'
+// import State from './componenets/State'
 // import ApiFtech from './componenets/ApiFtech'
 
 const App = () => {
   return (
     <div>
       {/* <ApiFtech/> */}
-      <State />
+      {/* <State /> */}
+      <UseEffect/>
     </div>
   )
 }
