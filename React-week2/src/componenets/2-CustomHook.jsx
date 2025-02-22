@@ -46,3 +46,40 @@
 // export default CustomHook
 
 ///////////////////////////////////////////////////////////////////////
+
+// import React from 'react'
+// import useCounter from './2-CustomHook2'
+
+// const CustomHook = () => {
+//     const [count,increment] = useCounter()
+//   return (
+//     <div>
+//         <h1>{count}</h1>
+//         <button onClick={increment}>+1</button>
+//     </div>
+//   )
+// }
+
+// export default CustomHook
+
+                //conter change state in 1 secondns
+
+import React from 'react'
+import useCounter from './2-CustomHook2'
+import { useEffect } from 'react'
+
+const CustomHook = () => {
+  const [count , increment] = useCounter()
+  useEffect(() => {
+    const handle = setInterval(() => increment(),1000)
+    return () =>{
+      clearInterval(handle)
+    }
+  })
+  return (
+    <div>
+      <h1>{count}</h1>
+    </div>
+  )
+}
+export default CustomHook
