@@ -55,7 +55,8 @@
 
 
 import React from 'react'
-import UseMemo from './componenets/3-UseMemo'
+// import Axios from './componenets/05-Axios'
+// import UseMemo from './componenets/3-UseMemo'
 // import CustomHook from './componenets/2-CustomHook'
 // import UseContext from './UseContextComponents/UseContext'
 // import UseReducer from './componenets/1-UseReducer'
@@ -72,7 +73,9 @@ const App = () => {
       {/* <UseReducer/> */}
       {/* <UseContext/> */}
       {/* <CustomHook/> */}
-      <UseMemo/>
+      {/* <UseMemo/> */}
+      {/* <Axios/> */}
+      
     </div>
   )
 }
