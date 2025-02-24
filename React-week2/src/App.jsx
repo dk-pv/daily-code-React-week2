@@ -55,7 +55,8 @@
 
 
 import React from 'react'
-import CustomHook from './componenets/2-CustomHook'
+import UseMemo from './componenets/3-UseMemo'
+// import CustomHook from './componenets/2-CustomHook'
 // import UseContext from './UseContextComponents/UseContext'
 // import UseReducer from './componenets/1-UseReducer'
 // import UseEffect from './componenets/UseEffect'
@@ -70,7 +71,8 @@ const App = () => {
       {/* <UseEffect/> */}
       {/* <UseReducer/> */}
       {/* <UseContext/> */}
-      <CustomHook/>
+      {/* <CustomHook/> */}
+      <UseMemo/>
     </div>
   )
 }
