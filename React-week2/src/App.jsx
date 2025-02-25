@@ -55,13 +55,17 @@
 
 
 import React from 'react'
+
 // import Parent from './componenets/React.Memo/Parent'
+import HOC from './componenets/06-HOC'
+import HOC2 from './componenets/06-HOC2'
+
 // import { HeadingWithHoverAnim } from './componenets/06-HOC'
 // import { ParaWithHoverAnim } from './componenets/06-HOC2'
 // import Axios from './componenets/05-Axios'
 // import UseMemo from './componenets/3-UseMemo'
 // import CustomHook from './componenets/2-CustomHook'
-import UseContext from './UseContextComponents/UseContext'
+// import UseContext from './UseContextComponents/UseContext'
 // import UseReducer from './componenets/1-UseReducer'
 // import UseEffect from './componenets/UseEffect'
 // import State from './componenets/State'
@@ -74,13 +78,17 @@ const App = () => {
       {/* <State /> */}
       {/* <UseEffect/> */}
       {/* <UseReducer/> */}
-      <UseContext/>
+      {/* <UseContext/> */}
       {/* <CustomHook/> */}
       {/* <UseMemo/> */}
       {/* <Axios/> */}
       {/* <HeadingWithHoverAnim />
       <ParaWithHoverAnim /> */}
+      <HOC/>
+      <HOC2/>
+
       {/* <Parent /> */}
+     
     </div>
   )
 }
