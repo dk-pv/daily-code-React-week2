@@ -55,10 +55,12 @@
 
 
 import React from 'react'
+import Main from './React-Routing.jsx/Main'
 
 // import Parent from './componenets/React.Memo/Parent'
-import HOC from './componenets/06-HOC'
-import HOC2 from './componenets/06-HOC2'
+
+// import HOC from './componenets/06-HOC'
+// import HOC2 from './componenets/06-HOC2'
 
 // import { HeadingWithHoverAnim } from './componenets/06-HOC'
 // import { ParaWithHoverAnim } from './componenets/06-HOC2'
@@ -84,10 +86,11 @@ const App = () => {
       {/* <Axios/> */}
       {/* <HeadingWithHoverAnim />
       <ParaWithHoverAnim /> */}
-      <HOC/>
-      <HOC2/>
-
+      {/* <HOC/>
+      <HOC2/> */}
       {/* <Parent /> */}
+
+      <Main/>
      
     </div>
   )
