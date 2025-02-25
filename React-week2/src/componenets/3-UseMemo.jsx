@@ -45,23 +45,55 @@
 
 /////////////////////////////////////////////////////////////////////////
 
+// import React,{useMemo, useState} from "react";
+// const UseMemo = () => {
+//   const [count, setCount] = useState(0);
 
-import React,{useMemo, useState} from "react";
+//   const multiplyValue = useMemo(() =>{
+//     return count * 2 ;
+//   },[count])
+
+//   const handleIncrement = () => {
+//     setCount(count + 1);
+//   };
+//   return (
+//     <div>
+//       <button onClick={handleIncrement}>increment</button>
+//       <div>the count is {count}</div>
+//       <div>multiply value {multiplyValue}</div>
+//     </div>
+//   );
+// };
+
+// export default UseMemo;
+
+////////////////////////////////////////////////////////////////////////
+
+import React, { useMemo, useState } from "react";
+
 const UseMemo = () => {
   const [count, setCount] = useState(0);
+  const [count1, setCount1] = useState(0);
 
-  const multiplyValue = useMemo(() =>{
-    return count * 2 ;
-  },[count])
-
-  const handleIncrement = () => {
+  const increment = () => {
     setCount(count + 1);
   };
+  const increment1 = () => {
+    setCount1(count1 + 1);
+  };
+  
+  const isEven = useMemo(() => {
+    let d = 0;
+    while (d<2000000000) {
+      d++
+    }
+  },[count])
+
   return (
     <div>
-      <button onClick={handleIncrement}>increment</button>
-      <div>the count is {count}</div>
-      <div>multiply value {multiplyValue}</div>
+      <button onClick={increment}> increment : {count} </button>
+    
+      <button onClick={increment1}>increment : {count1}</button>
     </div>
   );
 };
