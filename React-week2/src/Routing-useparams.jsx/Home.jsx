@@ -19,20 +19,28 @@
 
 //////////////////////////////////////////////////////////////////////////
 
-import React from 'react'
-import {Link} from 'react-router-dom'
+// import React from 'react'
+// import {Link} from 'react-router-dom'
 
-const Home = () => {
-  return (
-    <div>
-      <h1>Home page</h1>
-      <ul>
-        <li><Link to={'/'}>HOME</Link></li>
-        <li><Link to={'/book/1'}>BOOK1</Link></li>
-        <li><Link to={'/book/2'}>BOOK2</Link></li>
-      </ul>
-    </div>
-  )
-}
+// const Home = () => {
+//   return (
+//     <div>
+//       <h1>Home page</h1>
+//       <ul>
+//         <li><Link to={'/'}>HOME</Link></li>
+//         <li><Link to={'/book/1'}>BOOK1</Link></li>
+//         <li><Link to={'/book/2'}>BOOK2</Link></li>
+//       </ul>
+//     </div>
+//   )
+// }
 
-export default Home
+// export default Home
+
+
+
+
+
+
+
+
