@@ -69,33 +69,33 @@
 
 ////////////////////////////////////////////////////////////////////////
 
-import React, { useMemo, useState } from "react";
+// import React, { useMemo, useState } from "react";
 
-const UseMemo = () => {
-  const [count, setCount] = useState(0);
-  const [count1, setCount1] = useState(0);
+// const UseMemo = () => {
+//   const [count, setCount] = useState(0);
+//   const [count1, setCount1] = useState(0);
 
-  const increment = () => {
-    setCount(count + 1);
-  };
-  const increment1 = () => {
-    setCount1(count1 + 1);
-  };
+//   const increment = () => {
+//     setCount(count + 1);
+//   };
+//   const increment1 = () => {
+//     setCount1(count1 + 1);
+//   };
   
-  const isEven = useMemo(() => {
-    let d = 0;
-    while (d<2000000000) {
-      d++
-    }
-  },[count])
+//   const isEven = useMemo(() => {
+//     let d = 0;
+//     while (d<2000000000) {
+//       d++
+//     }
+//   },[count])
 
-  return (
-    <div>
-      <button onClick={increment}> increment : {count} </button>
+//   return (
+//     <div>
+//       <button onClick={increment}> increment : {count} </button>
     
-      <button onClick={increment1}>increment : {count1}</button>
-    </div>
-  );
-};
+//       <button onClick={increment1}>increment : {count1}</button>
+//     </div>
+//   );
+// };
 
-export default UseMemo;
+// export default UseMemo;

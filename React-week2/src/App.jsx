@@ -55,9 +55,9 @@
 
 
 import React from 'react'
-import Main from './Routing-useparams.jsx/Main'
+// import Main from './Routing-useparams.jsx/Main'
 
-// import Parent from './componenets/React.Memo/Parent'
+import Parent from './componenets/React.Memo/Parent'
 
 // import HOC from './componenets/06-HOC'
 // import HOC2 from './componenets/06-HOC2'
@@ -88,9 +88,9 @@ const App = () => {
       <ParaWithHoverAnim /> */}
       {/* <HOC/>
       <HOC2/> */}
-      {/* <Parent /> */}
+      <Parent />
 
-      <Main/>
+      {/* <Main/> */}
      
     </div>
   )

@@ -62,7 +62,9 @@
 
 // export default CustomHook
 
-                //conter change state in 1 secondns
+////////////////////////////////////////////////////////////////////////
+
+                //conter ,  change state in each 1 seconds
 
 import React from 'react'
 import useCounter from './2-CustomHook2'

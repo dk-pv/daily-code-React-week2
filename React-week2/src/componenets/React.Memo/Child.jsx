@@ -1,12 +1,13 @@
 import React from 'react'
 
-const Child = () => {
+const Child = ({change}) => {
     console.log("child renderd")
   return (
     <div>
-      child
+      {change}
     </div>
   )
 }
 
 export default Child
+export const MemoizedChild = React.memo(Child)
